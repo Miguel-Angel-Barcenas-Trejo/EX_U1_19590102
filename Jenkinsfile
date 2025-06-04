@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clonar repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/TU_USUARIO/TU_REPO.git'
+                git branch: 'main', url: 'https://github.com/Miguel-Angel-Barcenas-Trejo/EX_U1_19590102.git'
             }
         }
 
